@@ -1,9 +1,10 @@
 {
   "name": "cyberpunk-accessible",
-  "displayName": "Cyberpunk Accessible",
+  "displayName": "ChromaShift",
   "description": "High-contrast cyberpunk theme optimized for color blindness with maximum distinguishability across all syntax elements",
   "version": "1.1.0",
-  "publisher": "your-name",
+  "publisher": "Devin Hart",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.60.0"
   },
