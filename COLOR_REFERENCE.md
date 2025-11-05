@@ -6,11 +6,11 @@
 
 | Color | Hex Code | Used For | Example |
 |-------|----------|----------|---------|
-| **Neon Magenta** | `#ff00ff` | Keywords, HTML tags, CSS selectors, control flow | `if`, `const`, `<div>`, `.class` |
-| **Cyan** | `#00ffff` | Functions, methods, CSS IDs, imports | `myFunction()`, `#header` |
-| **Neon Green** | `#39ff14` | Strings, attribute values, CSS values | `"hello"`, `"red"`, `background: #000` |
-| **Bright Orange** | `#ff6600` | Numbers, constants, attributes, CSS properties | `42`, `true`, `className=`, `color:` |
-| **Hot Pink** | `#ff0080` | Classes, types, JSX components, decorators | `MyClass`, `ProductCard`, `@decorator` |
+| **Neon Magenta** | `#ff00ff` | Keywords, HTML tags, CSS selectors, control flow, **JSON keys** | `if`, `const`, `<div>`, `.class`, `"key":` |
+| **Cyan** | `#00ffff` | Functions, methods, CSS IDs, imports, **JSON booleans/null** | `myFunction()`, `#header`, `true`, `null` |
+| **Neon Green** | `#39ff14` | Strings, attribute values, CSS values, **JSON string values** | `"hello"`, `"red"`, `background: #000` |
+| **Bright Orange** | `#ff6600` | Numbers, constants, attributes, CSS properties, **JSON numbers** | `42`, `true`, `className=`, `color:` |
+| **Hot Pink** | `#ff0080` | Classes, types, JSX components, decorators, **JSON braces/brackets** | `MyClass`, `ProductCard`, `@decorator`, `{ }`, `[ ]` |
 | **Yellow** | `#ffff00` | Template expressions, regex, CSS units | `${var}`, `/regex/`, `10px` |
 | **White** | `#f0f0f0` | Variables, general text | `myVar`, plain text |
 | **Light Gray** | `#666666` | Comments (italic) | `// comment`, `# comment` |
@@ -86,6 +86,24 @@ class MyClass:
 #id-name {
   background: red;
 }
+```
+
+### JSON
+
+```json
+{
+  "keyName": "stringValue",
+  "number": 42,
+  "boolean": true,
+  "null": null
+}
+
+/* MAGENTA (bold): "keyName" - object keys */
+/* NEON GREEN: "stringValue" - string values */
+/* ORANGE (bold): 42 - numbers */
+/* CYAN (bold): true, false, null - booleans and null */
+/* HOT PINK (bold): { } [ ] - braces and brackets */
+/* WHITE: : , - colons and commas */
 ```
 
 ## Why These Colors?

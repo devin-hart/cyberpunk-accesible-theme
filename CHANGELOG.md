@@ -2,6 +2,22 @@
 
 All notable changes to the "Cyberpunk Accessible" theme will be documented in this file.
 
+## [1.1.0] - 2025-11-04
+
+### Enhanced
+- **Significantly improved JSON contrast** - Keys, values, and structural elements now highly distinguishable
+- JSON keys: Bold magenta (same as keywords for consistency)
+- JSON string values: Neon green (distinct from keys)
+- JSON numbers: Bold orange (stands out clearly)
+- JSON booleans/null: Bold cyan (different from strings and numbers)
+- JSON braces/brackets: Bold hot pink (structural elements pop)
+- JSON punctuation: White (subtle but visible)
+
+### Added
+- `JSON_TEST.json` - Comprehensive test file for JSON highlighting
+- Extended JSON scope coverage for better syntax detection
+- Bold styling on JSON structural elements for maximum visibility
+
 ## [1.0.0] - 2025-11-04
 
 ### Added

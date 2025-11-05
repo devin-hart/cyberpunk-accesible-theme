@@ -455,19 +455,68 @@
       "name": "JSON Keys",
       "scope": [
         "support.type.property-name.json",
-        "string.json support.type.property-name.json"
+        "string.json support.type.property-name.json",
+        "meta.structure.dictionary.key.json"
       ],
       "settings": {
-        "foreground": "#00ffff"
+        "foreground": "#ff00ff",
+        "fontStyle": "bold"
       }
     },
     {
       "name": "JSON String Values",
       "scope": [
-        "string.quoted.double.json"
+        "string.quoted.double.json",
+        "meta.structure.dictionary.value.json string.quoted.double.json"
       ],
       "settings": {
         "foreground": "#39ff14"
+      }
+    },
+    {
+      "name": "JSON Numbers",
+      "scope": [
+        "constant.numeric.json"
+      ],
+      "settings": {
+        "foreground": "#ff6600",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JSON Booleans and Null",
+      "scope": [
+        "constant.language.json"
+      ],
+      "settings": {
+        "foreground": "#00ffff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JSON Punctuation",
+      "scope": [
+        "punctuation.definition.string.begin.json",
+        "punctuation.definition.string.end.json",
+        "punctuation.separator.dictionary.key-value.json",
+        "punctuation.separator.dictionary.pair.json",
+        "punctuation.separator.array.json"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "JSON Braces and Brackets",
+      "scope": [
+        "punctuation.definition.dictionary.begin.json",
+        "punctuation.definition.dictionary.end.json",
+        "punctuation.definition.array.begin.json",
+        "punctuation.definition.array.end.json"
+      ],
+      "settings": {
+        "foreground": "#ff0080",
+        "fontStyle": "bold"
       }
     },
     {

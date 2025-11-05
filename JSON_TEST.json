@@ -1,0 +1,63 @@
+{
+  "name": "cyberpunk-accessible",
+  "version": "1.0.0",
+  "description": "High-contrast theme for color blindness",
+  "enabled": true,
+  "maxConnections": 100,
+  "timeout": 5000,
+  "ratio": 3.14159,
+  "isProduction": false,
+  "apiKey": null,
+  "features": {
+    "darkMode": true,
+    "analytics": false,
+    "autoSave": true,
+    "maxFileSize": 10485760
+  },
+  "colors": [
+    "#ff00ff",
+    "#00ffff",
+    "#39ff14",
+    "#ff6600"
+  ],
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "mydb",
+    "ssl": true,
+    "poolSize": 20
+  },
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "active": true,
+      "balance": 1000.50
+    },
+    {
+      "id": 2,
+      "username": "guest",
+      "active": false,
+      "balance": 0
+    }
+  ],
+  "settings": {
+    "theme": "cyberpunk",
+    "fontSize": 14,
+    "lineHeight": 1.5,
+    "autoComplete": true,
+    "notifications": {
+      "email": true,
+      "push": false,
+      "frequency": "daily"
+    }
+  },
+  "emptyArray": [],
+  "emptyObject": {},
+  "nullValue": null,
+  "booleanTrue": true,
+  "booleanFalse": false,
+  "largeNumber": 9007199254740991,
+  "negativeNumber": -42,
+  "scientificNotation": 1.23e-4
+}
