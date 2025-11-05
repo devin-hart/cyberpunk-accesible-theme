@@ -1,0 +1,5 @@
+.vscode/**
+.gitignore
+THEME_PREVIEW.js
+*.vsix
+node_modules/**

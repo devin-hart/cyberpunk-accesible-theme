@@ -1,0 +1,32 @@
+{
+  "name": "cyberpunk-accessible",
+  "displayName": "Cyberpunk Accessible",
+  "description": "High-contrast cyberpunk theme optimized for color blindness with maximum distinguishability across all syntax elements",
+  "version": "1.0.0",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "cyberpunk",
+    "high contrast",
+    "accessible",
+    "color blind",
+    "colorblind",
+    "accessibility"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cyberpunk Accessible",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyberpunk-accessible-theme.json"
+      }
+    ]
+  }
+}
